@@ -26,7 +26,7 @@ I have been working in the restaurant industry for 10 years, holding various pos
 
 ---
 
-## Code Examples
+## Code Example
 
 ```javascript
 function createChunks(arr, chunkSize) {
@@ -43,3 +43,21 @@ function createChunks(arr, chunkSize) {
 ```
 
 ---
+
+## Experience
+
+- [BabyRock](https://babyrock.com.ua/), [Code](https://github.com/IlchenkoY/baby-rock): commercial project, used JavaScript, HTML, SCSS, VITE
+
+---
+
+## Courses
+
+- [GoIT](https://drive.google.com/file/d/1zB3lgdUR5ypkUfnjGKMNRnKE8VqHnTUV/view)
+
+---
+
+## Languages
+
+- **English** - Intermediate/Upper-intermediate
+- **Ukrainian** - Native
+- **Russian** - Advanced
