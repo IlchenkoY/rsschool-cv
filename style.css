@@ -1,0 +1,252 @@
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(57, 57, 67);
+  background-color: rgb(30, 30, 31);
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: rgb(225, 216, 207);
+  background-color: rgb(55, 55, 65);
+}
+
+ul {
+  list-style: none;
+}
+
+header p {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 900px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto 20px;
+  padding: 20px;
+}
+
+.sides-wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.left,
+.right {
+  padding: 20px;
+}
+
+.left {
+  background: rgb(225, 216, 207);
+  text-align: center;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills,
+.language-skills {
+  /* color: rgb(57, 57, 67); */
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.tech-skills p,
+.soft-skills p,
+.language-skills p,
+.contacts li,
+.tech-skills li,
+.soft-skills li,
+.language-skills li {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.contacts a {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(57, 57, 67);
+  text-decoration: none;
+}
+
+.intro {
+  color: rgb(255, 255, 255);
+  background-color: rgb(55, 55, 65);
+  padding: 30px;
+  margin: -20px;
+  margin-bottom: 30px;
+}
+
+.code pre {
+  background-color: rgb(236, 237, 240);
+}
+
+.projects,
+.education,
+.courses {
+  margin-bottom: 30px;
+}
+
+.projects {
+  margin-top: 20px;
+}
+
+.projects a {
+  color: rgb(57, 57, 67);
+}
+
+.projects p {
+  font-size: 20px;
+  margin: 5px 0 20px 0;
+}
+
+.education p,
+.courses p,
+.education a,
+.courses a {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.courses a {
+  display: block;
+  color: rgb(57, 57, 67);
+}
+
+/*=============ACCORDION=============*/
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+}
+
+.accordion__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-top: 1px solid black;
+}
+
+.accordion__title span {
+  display: inline-flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  transform: rotate(0);
+  transition: transform 0.5s ease-out;
+}
+
+.accordion__title.active span {
+  transform: rotate(45deg);
+}
+
+.accordion__title span::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+.accordion__title span::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+.accordion__content {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3;
+  overflow: hidden;
+  padding: 0 20px;
+  box-sizing: content-box;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out,
+    opacity 0.1s ease-out 0.5s, visibility 0.1s ease-out 0.5s;
+}
+
+.accordion__content.active {
+  visibility: visible;
+  opacity: 1;
+  padding: 20px;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out,
+    opacity 0.1s ease-out, visibility 0.1s ease-out;
+}
+
+.accordion__icon-star {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  fill: rgb(255, 172, 51);
+}
+
+.accordion__sub-item {
+  display: flex;
+  align-items: center;
+}
+
+.accordion__sub-title {
+  margin: 5px 0;
+}
+
+.accordion__sub-option {
+  max-width: 380px;
+}
+
+/*=============FOOTER=============*/
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-wrapper p {
+  font-size: 20px;
+}
+
+.github-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.rs-icon {
+  width: 150px;
+}

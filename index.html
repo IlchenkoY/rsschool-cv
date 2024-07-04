@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilchenko Yaroslav CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <div class="sides-wrapper">
+        <div class="left">
+          <img src="profile.jpg" alt="profile picture">
+          <header>
+            <h1>ILCHENCKO YAROSLAV</h1>
+            <p>Junior Front-End Developer</p>
+          </header>
+          <section class="contacts">
+            <h2>CONTACTS</h2>
+            <nav>
+              <ul>
+                <li>
+                  <a href="tel:+380988661982">
+                    +38(098)866-19-82
+                  </a>
+                </li>
+                <li><a href="mailto:ilchenckoyaroslav@gmail.com">ilchenckoyaroslav@gmail.com</a></li>
+                <li><a href="https://github.com/IlchenkoY" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/yaroslav-ilchencko-a24903223/" target="_blank">Linkedin</a>
+                </li>
+                <li><a href="https://www.facebook.com/profile.php?id=100015452887756">Facebook</a></li>
+                <li>
+                  <p>Kyiv, Ukraine</p>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section class="tech-skills">
+            <h2>TECH SKILLS</h2>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>SASS</li>
+              <li>GIT</li>
+              <li>WebPack/Parcel/Vite</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>REST API</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>JWT</li>
+            </ul>
+          </section>
+          <section class="soft-skills">
+            <h2>SOFT SKILLS</h2>
+            <ul>
+              <li>Communication</li>
+              <li>Collaboration and teamwork</li>
+              <li>Time management and organization</li>
+              <li>Emotional intelligence</li>
+              <li>Owning up to errors</li>
+              <li>Creative problem solving</li>
+            </ul>
+          </section>
+          <section class="language-skills">
+            <h2>LANGUAGE SKILLS</h2>
+            <ul>
+              <li>Ukrainian — native</li>
+              <li>Russian — fluent</li>
+              <li>English — intermediate</li>
+            </ul>
+          </section>
+        </div>
+        <div class="right">
+          <section class="intro">
+            <p>I have been working in the restaurant industry for 12 years, holding various positions: bartender,
+              waiter,
+              and manager. I have experience as a private entrepreneur. But, having discovered the world of programming,
+              I
+              realized that this is mine, this is what I want to do all my life, not because it is popular now and there
+              is
+              an opportunity to get a good salary, but because it is exciting, this is what I do with pleasure, and not
+              because it is necessary.</p>
+          </section>
+          <section class="code">
+            <h2>CODE EXAMPLE</h2>
+            <pre>
+              <code>
+          function createChunks(arr, chunkSize) {
+            function chunkify(inputArray, size) {
+              return inputArray.length === 0
+                ? []
+                : [inputArray.slice(0, size)].concat(
+                    chunkify(inputArray.slice(size), size)
+                  );
+            }
+                
+            return chunkify(arr, chunkSize);
+          }
+              </code>
+            </pre>
+          </section>
+          <section class="projects">
+            <h2>Projects</h2>
+            <ul class="accordion-list accordion">
+              <li class="accordion-item">
+                <div data-tab="tab-1" class="accordion__title">
+                  <h3>WebStudio</h3>
+                  <span></span>
+                </div>
+                <div id="tab-1" class="accordion__content">
+                  <a href="https://ilchenkoy.github.io/goit-markup-hw-08/" target="_blank">Site</a>
+                  <a href="https://github.com/IlchenkoY/goit-markup-hw-08" target="_blank">Code</a>
+                  <p>Design business card website. Mobile-first design. Using HTML, SASS.</p>
+                </div>
+              </li>
+              <li class="accordion-item">
+                <div data-tab="tab-2" class="accordion__title">
+                  <h3>HellEn</h3>
+                  <span></span>
+                </div>
+                <div id="tab-2" class="accordion__content">
+                  <a href="https://tomash-serg.github.io/parcel-project-template-itcats/" target="_blank">Site</a>
+                  <a href="https://github.com/IlchenkoY/parcel-project-template-itcats" target="_blank">Code</a>
+                  <p>English school business card website. Mobile-first design. Using HTML, SASS.</p>
+                </div>
+              </li>
+              <li class="accordion-item">
+                <div data-tab="tab-3" class="accordion__title">
+                  <h3>Filmoteka</h3>
+                  <span></span>
+                </div>
+                <div id="tab-3" class="accordion__content">
+                  <a href="https://hrendzha.github.io/filmoteka/" target="_blank">Site</a>
+                  <a href="https://github.com/IlchenkoY/filmoteka" target="_blank">Code</a>
+                  <p>Project about searching movies, and adding favorite movies to a client's library. Using pure JS,
+                    npm-packages and SCSS.</p>
+                </div>
+              </li>
+              <li class="accordion-item">
+                <div data-tab="tab-4" class="accordion__title">
+                  <h3>PhoneBook</h3>
+                  <span></span>
+                </div>
+                <div id="tab-4" class="accordion__content">
+                  <a href="https://iy-phone-book.netlify.app/" target="_blank">Site</a>
+                  <a href="https://github.com/IlchenkoY/goit-react-hw-08-phonebook" target="_blank">Code</a>
+                  <p>Phonebook app with individual access. Using React, npm packages, styled-components, and Redux
+                    Toolkit.
+                  </p>
+                </div>
+              </li>
+              <li class="accordion-item">
+                <div data-tab="tab-5" class="accordion__title">
+                  <h3>PhoneBook REST API</h3>
+                  <span></span>
+                </div>
+                <div id="tab-5" class="accordion__content">
+                  <a href="https://github.com/IlchenkoY/nodejs-homework-rest-api" target="_blank">Code</a>
+                  <p>REST API for PhoneBook with individual access. Using Node.js, Express, MongoDB, JWT, Mongoose,
+                    Multer,
+                    mail sending.</p>
+                </div>
+              </li>
+              <li class="accordion-item">
+                <div data-tab="tab-6" class="accordion__title">
+                  <h3>SlimMom</h3>
+                  <span></span>
+                </div>
+                <div id="tab-6" class="accordion__content">
+                  <a href="https://team-work-goit-slim-mom.netlify.app/" target="_blank">Site</a>
+                  <a href="https://github.com/IlchenkoY/slim-mom-front" target="_blank">Frontend Code</a>
+                  <a href="https://github.com/IlchenkoY/slim-mom-back" target="_blank">Backend Code</a>
+                  <p>Application for counting calories, taking into account the food eaten per day. Backend and frontend
+                    were written from scratch for this project.</p>
+                </div>
+              </li>
+              <li class="accordion-item">
+                <div data-tab="tab-7" class="accordion__title">
+                  <h3>BabyRock</h3>
+                  <span></span>
+                </div>
+                <div id="tab-7" class="accordion__content">
+                  <a href="https://babyrock.com.ua/" target="_blank">Site</a>
+                  <a href="https://github.com/IlchenkoY/baby-rock" target="_blank">Code</a>
+                  <p>Commercial project, used JavaScript, HTML, SCSS, VITE.</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="education">
+            <h2>EDUCATION</h2>
+            <p>Kharkov State University of Food Technology and Trade</p>
+            <p>Management | Restaurant and tourism business management | 2008 - 2012</p>
+          </section>
+          <section class="courses">
+            <h2>COURSES</h2>
+            <p>IT School GoIT</p>
+            <a href="https://drive.google.com/file/d/1zB3lgdUR5ypkUfnjGKMNRnKE8VqHnTUV/view?usp=sharing"
+              target="_blank">Сertificate</a>
+            <p>Full stack developer</p>
+            <p>December 2020 - July 2022 | Ukraine</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <a href="https://github.com/IlchenkoY" target="_blank">
+          <svg class="github-icon">
+            <use href="/sprite.svg#icon-github"></use>
+          </svg>
+        </a>
+        <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+          <svg class="rs-icon">
+            <use href="/sprite.svg#icon-rs_school_js"></use>
+          </svg>
+        </a>
+        <p>CREATED IN 2024</p>
+      </div>
+    </footer>
+  </div>
+  <script src="/accordion.js"></script>
+</body>
+
+
+</html>
